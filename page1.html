@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukovel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Page 1-->
+    <section class="page">
+        <div class="centeral_block_page">
+            <header data-lang="uk">
+                <img src="images/завантаження 1.png" alt="" class="logo">
+                <ul>
+                    <a href="Winter/link.html" class="links" target="_blank">
+                        <li>ЗИМА</li>
+                    </a>
+                    <a href="summer/link1.html" class="links" target="_blank">
+                        <li>ЛІТО</li>
+                    </a>
+                    <a href="ski-pass/link3.html" class="links" target="_blank">
+                        <li>СКІ-ПАСИ</li>
+                    </a>
+                    <a href="#" class="links">
+                        <li>ГОТЕЛІ</li>
+                    </a>
+                    <a href="actions/link2.html" class="links" target="_blank">
+                        <li>АКЦІЇ</li>
+                    </a>
+                    <a href="#" class="links">
+                        <li>ДОЗВІЛЛЯ <span>BUKOVEL</span></li>
+                    </a>
+                </ul>
+                <a href="#" class="menu">
+                    <img src="images/menu-icon-19353.png" alt="" class="menu_img">
+                </a>
+                <button class="link_ua" id="changeLanguage">UA</button>
+            </header>
+            <div class="">
+                <h1>Готель в ТК “Буковель”</h1>
+                <div class="search_block">
+                    <h2>Ваш пошук</h2>
+                    <div class="block">
+                        <div class="blocks">
+                            <h3>Заїзд</h3>
+                            <div class="data_block">
+                                <label for="in1">День заїзду:</label>
+                                <input type="date" id="in1" name="in1">
+                            </div>
+                        </div>
+                        <div class="blocks">
+                            <h3>Виїзд</h3>
+                            <div class="data_block">
+                                <label for="in2">День виїзду:</label>
+                                <input type="date" id="in2" name="in2">
+                            </div>
+                        </div>
+                        <div class="blocks">
+                            <h3>Гості</h3>
+                            <div class="data_block">
+                                <label for="in3" class="label1">Дорослі:</label>
+                                <input type="number" id="in3" name="in3">
+                            </div>
+                            <div class="data_block">
+                                <label for="in4" class="label1">Діти:</label>
+                                <input type="number" id="in4" name="in4">
+                            </div>
+                        </div>
+                        <button class="btn1">ЗАСТОСУВАТИ</button>
+                    </div>
+                </div>
+                <div class="hotel_block">
+                    <div class="filter_block">
+                        <div class="map_block">
+                            <img src="images/map.png" alt="" class="map">
+                            <div class="text_block_map">
+                                <p class="map_text">Готелі в ТК “Буковель” </p>
+                                <p class="map_text">Дивитись на карті</p>
+                            </div>
+                        </div>
+                        <h2>ФІЛЬТРИ</h2>
+                        <p>ціна за <span id="night">0</span> ніч та <span id="adult">0</span> дорослих</p>
+                        <div class="choise_block">
+                            <input type="text" class="choise_blocks">
+                            <h5>--</h5>
+                            <input type="text" class="choise_blocks">
+                        </div>
+
+                        <h2>ВІДСТАНЬ ДО ВИТЯГІВ</h2>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check1" name="check1">
+                            <label for="check1"><span>0-100</span></label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check2" name="check2">
+                            <label for="check2"><span>100-200</span></label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check3" name="check3">
+                            <label for="check3"><span>200-500</span></label>
+                        </div>
+
+                        <h2>ХАРЧУВАННЯ</h2>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check4" name="check4">
+                            <label for="check4">без харчування - із предоплатою</label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check5" name="check5">
+                            <label for="check5">із сніданком</label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check6" name="check6">
+                            <label for="check6">напівпансіон</label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check7" name="check7">
+                            <label for="check7">із сніданком + <span>VIP</span>-прохід</label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check8" name="check8">
+                            <label for="check8">без харчування</label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check9" name="check9">
+                            <label for="check9">із сніданком + <span>SPA</span></label>
+                        </div>
+                        <div class="check_blocks">
+                            <input type="checkbox" id="check10" name="check10">
+                            <label for="check10">із сніданком та без предоплати</label>
+                        </div>
+
+                    </div>
+                    <div class="card_block">
+                        <div class="cards">
+                            <div class="cards_blocks">
+                                <img src="images/bukovel_kottedzh2 1.png" alt="" class="hotel">
+                            </div>
+                            <div class="cards_blocks">
+                                <div class="star_block">
+                                    <div class="stars">
+                                        <p><span>3</span></p>
+                                        <img src="icons/Vector 10.png" alt="" class="star">
+                                    </div>
+                                    <p>поруч із витягом</p>
+                                </div>
+                                <h4>Bukovel Hotel</h4>
+                                <p>Економ двомісний , <span>VIP</span> прохід + сніданок + <span>SPA</span></p>
+                            </div>
+                            <div class="cards_blocks cards_block1">
+                                <img src="images/проценти 1.png" alt="" class="price_img">
+                                <p class="price">2 160 $</p>
+                                <p class="for">Ціна за 1 ніч 2 дорослих</p>
+                                <button class="btn_cards">ВИБРАТИ НОМЕР</button>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="cards_blocks">
+                                <img src="images/1324375573 1.png" alt="" class="hotel">
+                            </div>
+                            <div class="cards_blocks">
+                                <div class="star_block">
+                                    <div class="stars">
+                                        <p><span>4</span></p>
+                                        <img src="icons/Vector 10.png" alt="" class="star">
+                                    </div>
+                                    <p>поруч із витягом</p>
+                                </div>
+                                <h4>Bukovel VIP Residence</h4>
+                                <p>Апартаменти тип <span>3</span> , <span>VIP</span> прохід + сніданок +
+                                    <span>SPA</span>
+                                </p>
+                            </div>
+                            <div class="cards_blocks cards_block1">
+                                <img src="images/проценти 1.png" alt="" class="price_img">
+                                <p class="price">3 660 $</p>
+                                <p class="for">Ціна за 1 ніч 2 дорослих</p>
+                                <button class="btn_cards">ВИБРАТИ НОМЕР</button>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="cards_blocks">
+                                <img src="images/1166462135 1.png" alt="" class="hotel">
+                            </div>
+                            <div class="cards_blocks">
+                                <div class="star_block">
+                                    <div class="stars">
+                                        <p><span>3</span></p>
+                                        <img src="icons/Vector 10.png" alt="" class="star">
+                                    </div>
+                                    <p>м. Яремче</p>
+                                </div>
+                                <h4>Edelweiss</h4>
+                                <p>Двомісний напівлюкс <span>2</span> категорія , <span>VIP</span> прохід +<br> сніданок
+                                    + <span>SPA</span></p>
+                            </div>
+                            <div class="cards_blocks cards_block1">
+                                <img src="images/проценти 1.png" alt="" class="price_img">
+                                <p class="price">3 660 $</p>
+                                <p class="for">Ціна за 1 ніч 2 дорослих</p>
+                                <button class="btn_cards">ВИБРАТИ НОМЕР</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="icons/filter_5657341.png" alt="" class="filter">
+        <div class="centeral_block_page">
+            <header data-lang="en" style="display: none;">
+                <img src="images/завантаження 1.png" alt="" class="logo">
+                <ul>
+                    <a href="Winter/link.html" class="links" target="_blank">
+                        <li>WINTER</li>
+                    </a>
+                    <a href="summer/link1.html" class="links" target="_blank">
+                        <li>SUMMER</li>
+                    </a>
+                    <a href="ski-pass/link3.html" class="links" target="_blank">
+                        <li>SKI-PASSES</li>
+                    </a>
+                    <a href="#" class="links">
+                        <li>HOTELS</li>
+                    </a>
+                    <a href="actions/link2.html" class="links" target="_blank">
+                        <li>ACTIONS</li>
+                    </a>
+                    <a href="#" class="links">
+                        <li>RECREATIONN</li>
+                    </a>
+                </ul>
+                <a href="#" class="menu">
+                    <img src="images/menu-icon-19353.png" alt="" class="menu_img">
+                </a>
+            </header>
+            <h1>Hotels at «Bukovel»</h1>
+            <div class="search_block">
+                <h2>Your search</h2>
+                <div class="block">
+                    <div class="blocks">
+                        <h3>Check-in</h3>
+                        <div class="data_block">
+                            <label for="in1">Check-in day:</label>
+                            <input type="date" id="in1" name="in1">
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <h3>Check-out</h3>
+                        <div class="data_block">
+                            <label for="in2">Check-out day:</label>
+                            <input type="date" id="in2" name="in2">
+                        </div>
+                    </div>
+                    <div class="blocks">
+                        <h3>Guests</h3>
+                        <div class="data_block">
+                            <label for="in3" class="label1">Adults:</label>
+                            <input type="number" id="in3" name="in3">
+                        </div>
+                        <div class="data_block">
+                            <label for="in4" class="label1">Children:</label>
+                            <input type="number" id="in4" name="in4">
+                        </div>
+                    </div>
+                    <button class="btn1">APPLY</button>
+                </div>
+            </div>
+            <div class="hotel_block">
+                <div class="filter_block">
+                    <div class="map_block">
+                        <img src="images/map.png" alt="" class="map">
+                        <div class="text_block_map">
+                            <p class="map_text">Hotels in TC "Bukovel"</p>
+                            <p class="map_text">Look on the map</p>
+                        </div>
+                    </div>
+                    <h2>FILTERS</h2>
+                    <p>price for <span id="night">0</span> night and <span id="adult">0</span> adults</p>
+                    <div class="choise_block">
+                        <input type="text" class="choise_blocks">
+                        <h5>--</h5>
+                        <input type="text" class="choise_blocks">
+                    </div>
+
+                    <h2>DISTANCE TO LIFTS</h2>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check1" name="check1">
+                        <label for="check1"><span>0-100</span></label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check2" name="check2">
+                        <label for="check2"><span>100-200</span></label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check3" name="check3">
+                        <label for="check3"><span>200-500</span></label>
+                    </div>
+
+                    <h2>MEALS</h2>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check4" name="check4">
+                        <label for="check4">no meals - with prepayment</label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check5" name="check5">
+                        <label for="check5">with breakfast</label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check6" name="check6">
+                        <label for="check6">half board</label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check7" name="check7">
+                        <label for="check7">with breakfast + <span>VIP</span> access</label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check8" name="check8">
+                        <label for="check8">no meals</label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check9" name="check9">
+                        <label for="check9">with breakfast + <span>SPA</span></label>
+                    </div>
+                    <div class="check_blocks">
+                        <input type="checkbox" id="check10" name="check10">
+                        <label for="check10">with breakfast and no prepayment</label>
+                    </div>
+                </div>
+                <div class="card_block">
+                    <div class="cards">
+                        <div class="cards_blocks">
+                            <img src="images/bukovel_kottedzh2 1.png" alt="" class="hotel">
+                        </div>
+                        <div class="cards_blocks">
+                            <div class="star_block">
+                                <div class="stars">
+                                    <p><span>3</span></p>
+                                    <img src="icons/Vector 10.png" alt="" class="star">
+                                </div>
+                                <p>near the lift</p>
+                            </div>
+                            <h4>Bukovel Hotel</h4>
+                            <p>Economy double, <span>VIP</span> access + breakfast + <span>SPA</span></p>
+                        </div>
+                        <div class="cards_blocks cards_block1">
+                            <img src="images/проценти 1.png" alt="" class="price_img">
+                            <p class="price">$2,160</p>
+                            <p class="for">Price for 1 night 2 adults</p>
+                            <button class="btn_cards">CHOOSE ROOM</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards_blocks">
+                            <img src="images/1324375573 1.png" alt="" class="hotel">
+                        </div>
+                        <div class="cards_blocks">
+                            <div class="star_block">
+                                <div class="stars">
+                                    <p><span>4</span></p>
+                                    <img src="icons/Vector 10.png" alt="" class="star">
+                                </div>
+                                <p>near the lift</p>
+                            </div>
+                            <h4>Bukovel VIP Residence</h4>
+                            <p>Apartment type <span>3</span>, <span>VIP</span> access + breakfast + <span>SPA</span></p>
+                        </div>
+                        <div class="cards_blocks cards_block1">
+                            <img src="images/проценти 1.png" alt="" class="price_img">
+                            <p class="price">$3,660</p>
+                            <p class="for">Price for 1 night 2 adults</p>
+                            <button class="btn_cards">CHOOSE ROOM</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="cards_blocks">
+                            <img src="images/1166462135 1.png" alt="" class="hotel">
+                        </div>
+                        <div class="cards_blocks">
+                            <div class="star_block">
+                                <div class="stars">
+                                    <p><span>3</span></p>
+                                    <img src="icons/Vector 10.png" alt="" class="star">
+                                </div>
+                                <p>in Yaremche</p>
+                            </div>
+                            <h4>Edelweiss</h4>
+                            <p>Double semi-luxe <span>2</span> category, <span>VIP</span> access +<br> breakfast +
+                                <span>SPA</span>
+                            </p>
+                        </div>
+                        <div class="cards_blocks cards_block1">
+                            <img src="images/проценти 1.png" alt="" class="price_img">
+                            <p class="price">$3,660</p>
+                            <p class="for">Price for 1 night 2 adults</p>
+                            <button class="btn_cards">CHOOSE ROOM</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="icons/filter_5657341.png" alt="" class="filter">
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
