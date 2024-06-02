@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeral_block_page{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+ul{
+    width: 60%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link_ua{
+    font-size: 18px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #CE1632;
+    transition: .3s ease;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+span{
+    font-weight: 700;
+    color: #000000;
+}
+
+.block_page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.blocks_page{
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 2px solid #CE1632;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 24px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.text_blocks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.block1_page{
+    border: none;
+    width: 40%;
+}
+
+.button_block{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btns{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000000;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid #a1a1a1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+label{
+    color: #858585;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.check_blocks{
+    padding: 3px;
+}
+
+.menu{
+    display: none;
+}
+
+.menu_img{
+    width: 44px;
+    height: 36px;
+}
+
+@media screen and (max-width: 1800px){
+    .action_block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    ul{
+        display: none;
+    }
+    .link_ua{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .centeral_block_page{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 905px){
+    .centeral_block_page{
+        width: 90%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .block_page{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .blocks_page{
+        width: 90%;
+    }
+    .text_blocks{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    h3{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .blocks_page{
+        padding: 15px;
+    }
+    .block_page{
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+    .button_block{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .btns{
+        margin: 3px;
+        width: 90%;
+    }
+}
